@@ -20,7 +20,7 @@ EditPackages=CmdsMut
 
 ## Config Files
 
-[CmdsMut.ini](Configs/CmdsMut.ini 'main config')
+[Cmds.ini](Cmds.ini 'master config')
 
 * nConfigFakes
 * nReservedSlots
