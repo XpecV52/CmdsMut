@@ -10,8 +10,6 @@ CmdsMut.CmdsCustom
 
 ## Building and Dependancies
 
-At the moment of 2021.03.27 there are no dependencies.
-
 Use [KF Compile Tool](https://github.com/InsultingPros/KFCompileTool) for easy compilation.
 
 ```cpp
