@@ -1,4 +1,4 @@
-﻿class Cmds extends Mutator
+class Cmds extends Mutator
 	Config(Cmds)
 	abstract;
 
@@ -350,9 +350,9 @@ function Mutate(string MutateString, PlayerController Sender)
 		SendMessage(Sender, "%g[18] - [Mutate WIPE] %w- (%pClear CurWaveZeds%w)"); 
 		SendMessage(Sender, "%g[19] - [Mutate GA ON/OFF] %w- (%pGliderAmmo on/off, %rRequire ADMIN!!!%w)");
 		SendMessage(Sender, "%g[20] - [Mutate FILL/MUTATE FILL ALL] %w- (%pReplenish your/all player Armor,HP,Ammo,Mag, %rRequire ADMIN!!!%w)");
-		SendMessage(Sender, "%g[20] - [Mutate AR/AUTOREPLENISH] %w- (%pReplenish all Armor,HP,Ammo,Mag, %rRequire ADMIN!!!%w)");
-		SendMessage(Sender, "%g[20] - [Mutate FILL] %w- (%pReplenish all Armor,HP,Ammo,Mag, %rRequire ADMIN!!!%w)");
-		SendMessage(Sender, "%g[21] - [Mutate ADMIN ON/OFF] %w- (%pWhether to close the command's ADMIN authority or not (only 1-18) , %rRequire ADMIN!!!%w)");
+		SendMessage(Sender, "%g[21] - [Mutate AR/AUTOREPLENISH] %w- (%pReplenish all Armor,HP,Ammo,Mag, %rRequire ADMIN!!!%w)");
+		SendMessage(Sender, "%g[22] - [Mutate FILL] %w- (%pReplenish all Armor,HP,Ammo,Mag, %rRequire ADMIN!!!%w)");
+		SendMessage(Sender, "%g[23] - [Mutate ADMIN ON/OFF] %w- (%pWhether to close the command's ADMIN authority or not (only 1-18) , %rRequire ADMIN!!!%w)");
 	}
 
 	else if(command ~= "GLIDERAMMO" || command ~= "GA"){
@@ -1105,7 +1105,6 @@ static function FillPlayInfo(PlayInfo PlayInfo)
 
 	PlayInfo.AddSetting("SXKCmds", "bAllTraderOpen", "AllTraderOpen", 0, 1, "check");
 	PlayInfo.AddSetting("SXKCmds", "bAR", "Attributes auto replenish", 0, 1, "check");
-	PlayInfo.AddSetting("Cmds", "AllTraderOpen", "AllTraderOpen", 0, 1, "check");
 	PlayInfo.AddSetting("Cmds", "bNoDrama", "Disable SloMo", 0, 0, "check");
 	PlayInfo.AddSetting("Cmds", "bAdminOnly", "Only Admins can use commands", 0, 0, "check");
 	PlayInfo.AddSetting("Cmds", "bSoloMode", "Solo Mode", 0, 0, "check");
