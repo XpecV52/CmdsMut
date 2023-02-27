@@ -1,4 +1,6 @@
 # CmdsMut
+[![GitHub all releases](https://img.shields.io/github/downloads/XpecV52/CmdsMut/total)](https://github.com/XpecV52/CmdsMut/releases)
+
 Killing Floor 1 CmdsMut
 Advanced console commands mutator for KF 1.
 
@@ -20,13 +22,7 @@ EditPackages=CmdsMut
 
 [Cmds.ini](Cmds.ini 'master config')
 
-* nConfigFakes
-* nReservedSlots
-* bNoDrama - slomo switch.
-* bAdminOnly - admin switch.
-* bSoloMode - 1 player only.
-* minNumPlayers
 
 ## Steam workshop
 
-<https://steamcommunity.com/sharedfiles/filedetails/?id=2488733607>
+[CmdsMut](https://steamcommunity.com/sharedfiles/filedetails/?id=2488733607)
