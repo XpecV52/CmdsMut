@@ -2,7 +2,8 @@
 [![GitHub all releases](https://img.shields.io/github/downloads/XpecV52/CmdsMut/total)](https://github.com/XpecV52/CmdsMut/releases)
 
 Killing Floor 1 CmdsMut
-Advanced console commands mutator for KF 1.
+
+  An Advanced console commands mutator for KF 1.
 
 ## Installation
 
